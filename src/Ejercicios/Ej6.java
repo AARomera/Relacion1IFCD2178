@@ -21,7 +21,7 @@ public class Ej6 {
 		
 		System.out.println("Introduce la velocidad en km/h: ");
 		double km = teclado.nextDouble();
-		System.out.println("La velocidad se convierte en "+ km*0.2778 +"m/s.");
+		System.out.println("La velocidad se convierte en "+ (km*1000/3600) +"m/s.");
 		teclado.close();
 
 	}

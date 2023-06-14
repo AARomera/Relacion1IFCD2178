@@ -10,8 +10,6 @@ import java.util.Scanner;
  *
  */
 public class Ej5 {
-
-
 	/**
 	 * @param args
 	 */
@@ -23,7 +21,7 @@ public class Ej5 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Introduce un radio: ");
 		float radio = teclado.nextFloat();
-		// double PI = Math.PI;
+		// final float PI = 3.14159f;
 		System.out.println("La longiud de la circunferencia es: "+(2*Math.PI*radio)+" y el área es: "+(Math.PI*(Math.pow(radio,2))));
 		teclado.close();
 	}
