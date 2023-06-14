@@ -21,7 +21,7 @@ public class Ej8 {
 		System.out.println("Intriduzca el radio: ");
 		double radio = teclado.nextDouble();
 		
-		System.out.println("El volumen de una esfera es: " + ((4/3)*Math.PI*Math.pow(radio, 3)) );
+		System.out.println("El volumen de una esfera es: " + (4*Math.PI*Math.pow(radio, 3)/3) );
 		teclado.close();
 	}
 
